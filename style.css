@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-image: url(./images/BDflood-woman.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 580px;
+}
+.header-content{
+    justify-content: center;
+    color: white;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 140px;
+}
+.header-content h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 55px;
+}
+.header-content p{
+    font-family: 'Poppins', sans-serif;
+    width: 80%;
+    font-size: 14px;
+    margin: 42px auto;
+}
+.link-button{
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    padding: 16px 12px;
+    background-color: #FF5959;
+    border-radius: 5px;
+    color: white;
+}
+.donate-today{
+    width: 80%;
+    margin: 120px auto;
+    text-align: center;
+}
+.donate-today-description{
+    width: 60%;
+    margin: 50px auto;
+}
+.donate-today-description h1{
+    color: #121212;
+    font-family: 'Inter', sans-serif;
+    font-size: 42px;
+    font-weight: 1000;
+}
+.donate-today-description p{
+    color: #707070;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    margin: 20px auto;
+}
+.donate-today-money{
+    font-family: 'Inter', sans-serif;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+.donate-tk{
+    background-color: #FAFAFA;
+    color:  #707070;
+    width: 120px;
+    height: 100px;
+    border-radius: 5px;
+    margin-left: 20px;
+    text-align: center;
+}
+.donate-tk-first{
+    margin-left: 0px;
+}
+.donate-tk h1{
+    margin: 32px auto;
+}
+.donate-tk-click{
+    background-color: #FFEEEE;
+    color: #FF5959;
+    border: 2px solid #FF5959;
+}
+.donate-today-sendmoney{
+    width: 70%;
+    justify-content: center;
+    margin: 0 auto;
+}
+.donate-today-sendmoney input[type=text] {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 14px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 40px auto;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #DADADA;
+}
+::placeholder{
+    color: #B3B3B3;
+}
+.donate-plan{
+    width: 80%;
+    margin: 120px auto;
+    text-align: center;
+}
+.donate-plan-description{
+    width: 60%;
+    margin: 50px auto;
+}
+.donate-plan-description h1{
+    color: #121212;
+    font-family: 'Inter', sans-serif;
+    font-size: 42px;
+    font-weight: 1000;
+}
+.donate-plan-description p{
+    color: #707070;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    margin: 20px auto;
+}
+.donet-plan-content{
+    display: flex;
+    justify-content: space-evenly;
+}
+.donet-plan-card{
+    width: 100%;
+    height: 208px;
+    border-radius: 5px;
+    text-align: left;
+    padding: 52px 20px;
+    margin-left: 20px;
+}
+.donet-plan-card img{
+    color:  #121212;
+    margin-bottom: 20px; 
+}
+.donet-plan-card h1{
+    font-family: 'Poppins', sans-serif;
+    color:  #121212;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 20px;   
+}
+.donet-plan-card p{
+    font-family: 'Poppins', sans-serif;
+    color: #707070;
+    font-size: 12px;
+}
+#card1{
+    background-color: rgba(79, 157, 166, 0.1);
+    margin-left: 0px;
+}
+#card2{
+    background: rgba(255, 89, 89, 0.1);
+}
+#card3{
+    background-color: #FFF4D6
+}
+
+.contribute-link-button{
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    padding: 14px 55px;
+    background-color: #FF5959;
+    border-radius: 5px;
+    color: white;
+}
+
+.latest-news{
+    width: 80%;
+    margin: 120px auto;
+    text-align: center;
+}
+.latest-news-description{
+    width: 60%;
+    margin: 50px auto;
+}
+.latest-news-description h1{
+    color: #121212;
+    font-family: 'Inter', sans-serif;
+    font-size: 42px;
+    font-weight: 1000;
+}
+.latest-news-description p{
+    color: #707070;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    margin: 20px auto;
+}
+.latest-news-content{
+    display: flex;
+    justify-content: space-evenly;
+}
+.latest-news-card{
+    width: 100%;
+    height: 420px;
+    border-radius: 5px;
+    text-align: left;
+    margin-left: 20px;
+    background-color: rgba(79, 157, 166, 0.1);
+}
+#news-card1{
+    margin-left: 0px;
+}
+.latest-news-card img{
+    margin-bottom: 20px;
+    width: 100%;
+    height: 200px; 
+}
+.latest-news-card h2{
+    font-family: 'Inter', sans-serif;
+    color: #121212;
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    padding-left: 6px;   
+}
+.update{
+    margin-bottom: 8px;
+    padding-left: 6px;
+}
+.latest-news-card p{
+    font-family: 'Poppins', sans-serif;
+    color: #707070;
+    font-size: 12px;
+    padding-left: 6px;
+}
+.latest-news-link{
+    margin-top: 75px;
+}
+.news-link-button{
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    padding: 14px 55px;
+    background-color: #FF5959;
+    border-radius: 5px;
+    color: white; 
+}
+.get-my-updates{
+    width: 80%;
+    margin: 120px auto;
+    text-align: center;
+}
+.get-my-updates-description{
+    width: 60%;
+    margin: 50px auto;
+}
+.get-my-updates-description h1{
+    color: #121212;
+    font-family: 'Inter', sans-serif;
+    font-size: 42px;
+    font-weight: 1000;
+}
+.get-my-updates-description p{
+    color: #707070;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    margin: 20px auto;
+}
+.get-my-updates-content{
+    width: 70%;
+    height: 150px;
+    background-color: #FFF4D6;
+    margin: 0 auto;
+}
+.get-my-updates-submit{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+.get-my-updates-submit input[type=email]{
+    background: #D9D9D9;
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+    padding: 7px 18px;
+    margin-top: 50px;
+}
+.subscribe-button{
+    text-decoration: none;
+    padding: 7px 30px;
+    color: white;
+    background: #FF5959;
+    border-radius: 0px 5px 5px 0px;
+    margin-left: -5px;
+    padding-bottom: 7px;
+    font-size: 14px;
+}
+footer{
+    background-color: #0B0D17;
+    width: 100%;
+    text-align: center;
+    height: 150px;
+}
+footer h1{
+    font-family: 'Lobster', cursive;
+    color: #FF5959;
+    line-height: 3;
+    font-size: 30px;
+    font-weight: 500;
+}
+footer p{
+    font-family: 'Manrope', sans-serif;
+    color: #D9DBE1;
+    font-size: 8px;
+}
